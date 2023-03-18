@@ -35,6 +35,10 @@
   #define FIRST_ANALOG_ADC_FS          4
  #if defined (RADIO_BOXER)
   #define NUM_ANALOGS_ADC_FS           5
+ #elif defined (PCBX9LITES)
+  #define NUM_ANALOGS_ADC_FS           3
+ #elif defined (RADIO_X9DP2019)
+  #define NUM_ANALOGS_ADC_FS           7
  #else
   #define NUM_ANALOGS_ADC_FS           10
   #define NUM_ANALOGS_ADC_EXT          2
