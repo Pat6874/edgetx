@@ -77,14 +77,14 @@
 #define TR_VMLTPX2                     "+=","*=",":="
 
 #if LCD_W >= 212
-  #define TR_CSWTIMER                  "Tempo"
+  #define TR_CSWTIMER                  "Chrono"
   #define TR_CSWSTICKY                 "Bistb"
   #define TR_CSWRANGE                  "Plage"
   #define TR_CSWSTAY                   "Flanc"
 #else
   #define TR_CSWTIMER                  "Temp"
   #define TR_CSWSTICKY                 "Bist"
-  #define TR_CSWRANGE                  "Zone"
+  #define TR_CSWRANGE                  "Plage"
   #define TR_CSWSTAY                   "Flnc"
 #endif
 
